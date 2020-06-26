@@ -45,3 +45,7 @@ From these plots, we can determine a few things:
 - Mean salary increases based on the job classification
 - As distance from a major city increases, the salary for these jobs generally decrease
 - Job salaries generally increase with more years of experience. 
+
+
+### Checking Sample Distribution
+In addition, we also analyzed the counts for each variable to see if we have a balanced sampling set.
