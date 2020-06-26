@@ -64,9 +64,9 @@ From these countplots (except for the Major countplot), we see that the dataset 
 ### Correlation Matrix
 To implement a correlation matrix that includes both categorical and numerical variables, we must alter the categorical labels to meaningful numerical information.  Since we have a large enough dataset, we decided to replace each categorical label with the avearge salary for that label.  The images below illustrate the changes:
 
-![Initial Dataframe](https://user-images.githubusercontent.com/60159655/85904045-afd61900-b7bc-11ea-9260-deafc552c079.png)
+![Original Labels for Categories](https://user-images.githubusercontent.com/60159655/85904764-6b4b7d00-b7be-11ea-8f09-4543d072e2a6.png)
 
-
+![Numbered Lables for Categories](https://user-images.githubusercontent.com/60159655/85904619-17409880-b7be-11ea-8280-69a7fbeea1dc.png)
 
 
 
