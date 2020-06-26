@@ -32,3 +32,16 @@ The plots below illustrate the distribution of the target variable (with desired
 
 ## Exploratory Data Analysis
 To understand the relationship between the variables and salary, we created several plots.  We used boxplots for categorical variables and line charts for numerical variables.
+
+![Job Type Degree](https://user-images.githubusercontent.com/60159655/85888080-bdc87180-b79d-11ea-8851-73b7f6aace30.png)
+
+![Major Industry](https://user-images.githubusercontent.com/60159655/85888197-f49e8780-b79d-11ea-9a9f-c190ae0c2943.png)
+
+![Miles Experience](https://user-images.githubusercontent.com/60159655/85888643-d71ded80-b79e-11ea-883e-04d103ec0191.png)
+
+From these plots, we can determine a few things:
+- For the type of degree, there is a significant difference in mean salary between jobs with a high school diploma (and lower) and jobs requiring a minimum of a Bachelor's degree
+- There is a significant difference in mean salary between jobs requiring a major and those that do not require one.
+- Mean salary increases based on the job classification
+- As distance from a major city increases, the salary for these jobs generally decrease
+- Job salaries generally increase with more years of experience. 
