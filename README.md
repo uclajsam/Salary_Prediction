@@ -46,7 +46,7 @@ From these plots, we can determine a few things:
 - As distance from a major city increases, the salary for these jobs generally decrease
 - Job salaries generally increase with more years of experience. 
 
-### Checking Sample Distribution
+### Checking Dataset Distribution
 In addition, we also analyzed the counts for each variable to see if we have a balanced sampling set.
 
 ![Company ID Countplot](https://user-images.githubusercontent.com/60159655/85899727-5ddcc580-b7b3-11ea-9d98-6b6b93956acb.png)
@@ -58,6 +58,18 @@ In addition, we also analyzed the counts for each variable to see if we have a b
 ![Miles From Metropolis Countplot](https://user-images.githubusercontent.com/60159655/85901753-55868980-b7b7-11ea-9d90-dca09dc036b3.png)
 
 ![Years Experience Countplot](https://user-images.githubusercontent.com/60159655/85901825-77800c00-b7b7-11ea-83d4-8cc5650b9c10.png)
+
+From these countplots (except for the Major countplot), we see that the dataset is well-balanced.  From the Major countplot, the high number of 'None' majors can be attributed to these job postings not requiring a college degree.  Taking this column out from the plot, we see that the others majors are well-balanced.  As a result of these observations, no additional sampling techinques are needed.
+
+### Correlation Matrix
+To implement a correlation matrix that includes both categorical and numerical variables, we must alter the categorical labels to meaningful numerical information.  Since we have a large enough dataset, we decided to replace each categorical label with the avearge salary for that label.  The images below illustrate the changes:
+
+![Initial Dataframe](https://user-images.githubusercontent.com/60159655/85904045-afd61900-b7bc-11ea-9260-deafc552c079.png)
+
+
+
+
+
 
 Baseline - 1366.19
 Linear Regression - 384.44
