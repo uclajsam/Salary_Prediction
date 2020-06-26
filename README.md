@@ -46,6 +46,20 @@ From these plots, we can determine a few things:
 - As distance from a major city increases, the salary for these jobs generally decrease
 - Job salaries generally increase with more years of experience. 
 
-
 ### Checking Sample Distribution
 In addition, we also analyzed the counts for each variable to see if we have a balanced sampling set.
+
+![Company ID Countplot](https://user-images.githubusercontent.com/60159655/85899727-5ddcc580-b7b3-11ea-9d98-6b6b93956acb.png)
+
+![Job Type Degree Countplot](https://user-images.githubusercontent.com/60159655/85901493-d8f3ab00-b7b6-11ea-8f93-50e97f6f3813.png)
+
+![Major Industry Countplot](https://user-images.githubusercontent.com/60159655/85901592-04769580-b7b7-11ea-88a3-646c7215939f.png)
+
+![Miles From Metropolis Countplot](https://user-images.githubusercontent.com/60159655/85901753-55868980-b7b7-11ea-9d90-dca09dc036b3.png)
+
+![Years Experience Countplot](https://user-images.githubusercontent.com/60159655/85901825-77800c00-b7b7-11ea-83d4-8cc5650b9c10.png)
+
+Baseline - 1366.19
+Linear Regression - 384.44
+Random Forest - 444.66
+Gradient Boosting - 359.47
