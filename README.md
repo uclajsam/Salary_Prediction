@@ -6,7 +6,7 @@ Have you ever thought how salaries for certain jobs are determined?  These figur
 Python will be used for this analysis along with the following libraries:
 - Numpy
 - Pandas
-- Seaboard
+- Seaboarn
 - Matplotlib
 - Sklearn
 
